@@ -106,7 +106,7 @@ protected static String queryBridgeWords(String word1,String word2){
     }
             
 }
-protected static void showDirectedGraph(Graph graph){
+protected static void showDirectedGraph(Graph graph){//Õ¹Ê¾Â·¾¶
     System.out.println("The graph presented is £º");
     for (int i = 0;i < graph.wordNum; i++){
         for (int j = 0;j < graph.wordNum;j++){
