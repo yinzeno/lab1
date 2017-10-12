@@ -119,7 +119,11 @@ protected static void showDirectedGraph(Graph graph){//·.
     }
 }
 
+<<<<<<< HEAD
 protected static void buildEdge(){//zi
+=======
+protected static void buildEdge(){//jian
+
     int preNum,curNum,i,j;
     String pre = "#" ;
     for(String word : TxtWordArray){
