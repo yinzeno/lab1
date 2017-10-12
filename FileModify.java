@@ -106,7 +106,7 @@ protected static String queryBridgeWords(String word1,String word2){
     }
             
 }
-protected static void showDirectedGraph(Graph graph){//展示路径
+protected static void showDirectedGraph(Graph graph){//路.
     System.out.println("The graph presented is ：");
     for (int i = 0;i < graph.wordNum; i++){
         for (int j = 0;j < graph.wordNum;j++){
@@ -119,7 +119,7 @@ protected static void showDirectedGraph(Graph graph){//展示路径
     }
 }
 
-protected static void buildEdge(){
+protected static void buildEdge(){//jian
     int preNum,curNum,i,j;
     String pre = "#" ;
     for(String word : TxtWordArray){
