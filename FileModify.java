@@ -106,7 +106,11 @@ protected static String queryBridgeWords(String word1,String word2){
     }
             
 }
+<<<<<<< HEAD
 protected static void showDirectedGraph(Graph graph){//路.
+=======
+protected static void showDirectedGraph(Graph graph){//展示路径
+
     System.out.println("The graph presented is ：");
     for (int i = 0;i < graph.wordNum; i++){
         for (int j = 0;j < graph.wordNum;j++){
