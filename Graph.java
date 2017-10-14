@@ -1,13 +1,8 @@
 package lab1;
 
 import java.util.List;
-<<<<<<< HEAD
-public class Graph{//t..
-    int wordNum;//顶点数
-=======
 public class Graph{
     int wordNum;//顶点数。
-
     List<String> wordList; //顶点集
     int[][] E; //边集
     public Graph(List<String> wordList,int[][] E,int wordNum){
