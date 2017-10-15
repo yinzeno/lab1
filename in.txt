@@ -1,0 +1,51 @@
+zhaoyuanhedeMBP:~ sha_da_bao$ ssh-keygen -t rsa -C "2877828507@qq.com"
+Generating public/private rsa key pair.
+Enter file in which to save the key (/Users/sha_da_bao/.ssh/id_rsa): 
+Created directory '/Users/sha_da_bao/.ssh'.
+Enter passphrase (empty for no passphrase): 
+Enter same passphrase again: 
+Your identification has been saved in /Users/sha_da_bao/.ssh/id_rsa.
+Your public key has been saved in /Users/sha_da_bao/.ssh/id_rsa.pub.
+The key fingerprint is:
+SHA256:v2pf5TYy7Jtb/22YKDah03NYOJRzAobQAncVcAeLZHI 2877828507@qq.com
+The key's randomart image is:
++---[RSA 2048]----+
+|  ..+oE+=o.      |
+|   ..*oooo       |
+|     ..... .     |
+|          = .    |
+|        S. =  .  |
+|         .+..o   |
+|         o.==.=o |
+|        + B+o*ooo|
+|       ..=o==o .=|
++----[SHA256]-----+
+
+
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC050UlQTyR8raSDsaOilwNzbtSqSPF38qZ6JbzZUFz+9wtGUjBCX5TA+8PBOkpJySyJgGV8xLdPscMRpvQtkclceaYln3Dcgh/QqKH7p4gyTQnNRPIsowB1l4WfTzn8AadxH1juSxVZQyd28T6nbHbV/MbVhqf4M4Y6dQWgjSQF2ZDT6z6tqXX/XhmoPKK39qVNliRZfC/QaLF8q/F/TpTMXDYr1Fz7J62pr5RTzRdOGe7kJ9cGHi8RwD25y0Ox8NMv6C66fCSN7CVU/WfYgeXGnXgAPt+6dpMHzRfDwXY84yKtQcc0JUBYZgF84EyqNnBVe/WUswrwAHmR+wI7Z0N 2877828507@qq.com
+
+
+2.登录 GitHub
+
+打开个人 Settings-->SSH keys-->Add SSH key
+
+Title 随便写
+
+Key 粘贴之前复制的内容
+
+这样 SSH key 就添加的 GitHub
+
+五、检测 SSH key
+
+输入命令：
+
+ssh git@github.com
+此时会验证 SSH key 是否可以访问 GitHub
+
+成功显示如下：
+
+Hi your_name! You've successfully authenticated, but GitHub does not provide shell access.
+
+Connection to github.com closed.
+
+以上为提示内容，不过这里还是有一个需要注意的地方，如果没有上面的成功提示输出的话也不要害怕，我们可以先自己在本地建立一个gitHub仓库，然后进行push操作，如果push成功那么设置是成功的，如果push不上去的话再去检查。
