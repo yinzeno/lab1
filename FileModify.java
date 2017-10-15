@@ -6,7 +6,7 @@ import java.util.regex.Pattern;
 import java.io.*;
 import java.lang.Character;
 
-public class FileModify {
+public class FileModify {//
     static int[][] E,D,path;
     static String[] TxtWordArray;
     static int wordNum = 0;

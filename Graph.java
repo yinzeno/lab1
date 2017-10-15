@@ -1,7 +1,7 @@
 package lab1;
 
 import java.util.List;
-public class Graph{
+public class Graph{//
     int wordNum;//顶点数
     List<String> wordList; //顶点集
     int[][] E; //边集
